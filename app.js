@@ -3,7 +3,8 @@ document.querySelector('form').addEventListener('submit', handleSubmitForm );
 document.querySelector('ul').addEventListener('click', handleClickDeleteOrCheck);
 document.getElementById('clearAll').addEventListener('click', handleClearAll);
 
-/*const pepe = ['elpepe', 'etesech', 'huevitoreyy', 'pelaofokakl','wenashoro'];
+//probando loops en JS
+/*const compras  = ['mouse', 'teclado', 'silla', 'monitor'];
 
 let activo = true;
 let i =0;*/
@@ -19,8 +20,8 @@ let i =0;*/
 
 /* let i =0;
 
-while(i < pepe.length){
-    console.log(pepe[i]);
+while(i < compras.length){
+    console.log(compras[i]);
     i++;
 }*/
 
@@ -30,12 +31,12 @@ while(i <= 10){
     i++
 }*/
 
-/*for(let i = pepe.length - 1; i >=0; i--){
-    console.log((i+1)+' '+pepe[i]);
+/*for(let i = compras.length - 1; i >=0; i--){
+    console.log((i+1)+' '+compras[i]);
 }*/
 
-/*for (let i =0; i < pepe.length ; i++){
-    console.log((i+1)+' '+pepe[i]);
+/*for (let i =0; i < compras.length ; i++){
+    console.log((i+1)+' '+compras[i]);
 }*/
 
 /*for(let i=1; i <11; i++ ){
@@ -44,11 +45,7 @@ while(i <= 10){
 
 }*/
 
-
-
-
-
-//evento
+//eventos
 function handleSubmitForm(e){
     e.preventDefault();
     let input = document.querySelector('input');
@@ -73,8 +70,7 @@ function handleClearAll(e){
 }
 
 
-// Helpers
-
+//acciones
 function addTodo(todo){
   
     let ul = document.querySelector('ul');
